@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textviewtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dang Nhap"
+        android:textSize="40sp"
+        ></TextView>
+    <EditText
+
+        android:hint="Nhap vao tk"
+        android:id="@+id/edittexttaikhoan"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/textviewtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></EditText>
+    <EditText
+        android:inputType="textPassword"
+        android:hint="Nhap vao mk"
+        android:id="@+id/edittextmatkhau"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/edittexttaikhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></EditText>
+    <Button
+        android:text="Dang Nhap"
+        android:id="@+id/buttonLogin"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/edittextmatkhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></Button>
+    <Button
+        android:text="Dang Ky"
+        android:id="@+id/buttonRegister"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></Button>
+
+</RelativeLayout>

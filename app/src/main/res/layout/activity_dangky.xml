@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangkyActivity">
+
+    <TextView
+        android:text=" Dang Ky SV"
+        android:id="@+id/scr02textviewtitledangky"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <ImageView
+        android:id="@+id/scr02Image"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/scr02textviewtitledangky"
+        android:layout_width="180dp"
+        android:layout_height="180dp"></ImageView>
+
+    <EditText
+        android:id="@+id/scr01edittexttk"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/scr02Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/scr01edittextmk"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/scr01edittexttk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></EditText>
+
+    <Button
+        android:text="Xac Nhan"
+        android:id="@+id/scr01btnXacNhan"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/scr01edittextmk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    ></Button>
+
+    <Button
+        android:text="Back"
+        android:id="@+id/scr01btnBack"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/scr01btnXacNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></Button>
+</RelativeLayout>
