@@ -30,6 +30,7 @@
         android:textSize="30dp"
         ></TextView>
     <Button
+        android:text="Delete"
         android:id="@+id/scr03btnDelete"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/scr03txtvPass"

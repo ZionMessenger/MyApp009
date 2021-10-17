@@ -34,4 +34,7 @@ dependencies {
     //20211005: add retrofit lib
     implementation 'com.squareup.retrofit2:retrofit:2.2.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+    //20211017: image lib picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
 }

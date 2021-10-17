@@ -8,9 +8,11 @@ import okhttp3.MultipartBody;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.GET;
 import retrofit2.http.Multipart;
 import retrofit2.http.POST;
 import retrofit2.http.Part;
+import retrofit2.http.Query;
 
 // giao tiếp data
 public interface DataClient {
@@ -32,4 +34,9 @@ public interface DataClient {
     @POST("login.php")
     Call<List<Sinhvien>> Logindata(@Field("taikhoan") String taikhoan,
                                    @Field("matkhau") String matkhau);
+
+    //20211017: dekete
+    @GET("delete.php")
+    Call<String> DeleteData(@Query("id") String id,
+                            @Query("hinhanh") String hinhanh);
 }
